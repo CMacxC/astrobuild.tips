@@ -22,10 +22,10 @@ const posts = ( await getCollection("tips")).sort(
 			{
 				posts.map((post) => (
 					<Card
-						date = { post.data.title }
-						title = { post.data.pubDate }
+						date = { post.data.pubDate }
+						title = { post.data.title }
 						tags = { post.data.tags}
-                        slug = { post.slug } 
+                        slug = {post.slug} 
 					/>
 				))
 			}
