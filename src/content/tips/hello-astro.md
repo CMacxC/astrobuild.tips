@@ -2,8 +2,9 @@
 title: "Hello Astro"
 pubDate: 2024-05-07
 description: "Hello, this is my first recomendation"
-image:
+image: "https://api.lorem.space/image/fashion?h=150&hash=2iw5mh00"
 tags: ["Astro", "JavaScript"]
+layout: "../../layouts/Posts.astro"
 ---
 
 Labore irure amet nisi sunt ad. Duis ut aute ipsum exercitation minim amet est Lorem cupidatat non nisi eu nulla irure. Commodo laborum eiusmod cupidatat magna exercitation do proident esse. Consequat anim aute aliqua anim. Duis enim ullamco ut fugiat excepteur quis sunt cillum.
